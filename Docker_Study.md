@@ -43,3 +43,11 @@
 
 2点需要注意，由于使用宿主机的mysql，在与宿主机数据库连接的时候，首先需要开启数据库远程访问，其次需要填宿主机的同一网段ip，不能填127.0.0.1，django同时要支持外网访问，还需要allow_host=[*]
 
+
+##Docker 学习网站
+
+	docker pull dockerpracticecn/docker_practice
+	docker run -it --rm -p 8080:80 dockerpracticecn/docker_practice
+
+访问我的网页：[docker学习](http://116.62.228.221:8080)
+
